@@ -113,7 +113,7 @@ body {
       var(--bacground-image),
       var(--bacground-image)
     ),
-    url("/images/new-image.jpg");
+    url("images/new-image.jpg");
 
   background-repeat: no-repeat;
   background-position: center;

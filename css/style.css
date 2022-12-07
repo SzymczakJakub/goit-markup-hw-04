@@ -163,7 +163,10 @@ body {
   justify-content: center;
   text-align: left;
 }
-
+.svg-lorem{
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
 .articles h3 {
   font-weight: 700;
   font-size: 14px;

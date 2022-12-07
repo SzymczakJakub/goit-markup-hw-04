@@ -92,10 +92,23 @@ body {
   color: var(--grey);
   text-decoration: none;
 }
+
 .contacts-header a:hover,
 .contacts-header a:focus {
   color: var(--blue);
 }
+
+.icon-header{
+  fill: currentColor;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.icon-header:hover,
+.icon-header:focus {
+  fill:var(--blue)
+}
+
 .section {
   padding: 94px 0;
 }

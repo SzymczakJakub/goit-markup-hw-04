@@ -9,6 +9,7 @@
   --bacground-image: rgba(47, 48, 58, 0.4);
   --social-links:#AFB1B8;
   --our-clients:#E5E5E5;
+  --social-links-footer:rgba(255, 255, 255, 0.1);
 }
 
 header {
@@ -251,7 +252,7 @@ body {
 }
 .social-links{
   background-color:var(--white) ;
-  display:block;
+  
   fill:var(--social-links);
   border-radius:50%;
 }
@@ -260,7 +261,8 @@ body {
   cursor: pointer;
 }
 
-.item-social:hover{
+.item-social:hover,
+.item-social:focus{
   fill:var(--white)
 }
 
@@ -448,9 +450,47 @@ text-align: center;
   display:flex;
   
 }
-.ending ul {
+.footer ul {
   display: flex;
   flex-direction: column;
   gap: 9px;
 }
+.join-us{
+  text-align: center;
+  margin-top: 12px;
+}
+.join-us h3{
+  color:var(--white);
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.join-us-links{
+  margin-top: 20px;
+  display:flex;
+  gap:10px;
+  text-align: center;
+}
+.divs{
+  display:flex;
+  gap:70px
+}
+.list-element{
+  background-color:var(--social-links-footer);
+  fill:var(--white);
+  border-radius:50%
+}
 
+.list-element:hover,
+.list-element:focus{
+  background-color:var(--blue);
+  cursor:pointer
+}
+
+.icon-footer{
+  vertical-align: middle;
+}

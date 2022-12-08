@@ -8,6 +8,7 @@
   --box-shadow: rgba(0, 0, 0, 0.15);
   --bacground-image: rgba(47, 48, 58, 0.4);
   --social-links:#AFB1B8;
+  --our-clients:#E5E5E5;
 }
 
 header {
@@ -256,6 +257,7 @@ body {
 }
 .social-links:hover{
   background-color: var(--blue);
+  cursor: pointer;
 }
 
 .item-social:hover{
@@ -368,6 +370,32 @@ body {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
+}
+
+.our-clients{
+justify-content: center;
+align-items: center;
+}
+.client-list{
+  display:flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  cursor: pointer;
+  
+}
+.our-clients h2{
+  font-family: "Roboto";
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+
+}
+
+.icon-client{
+  border: solid 1px #AFB1B8;
+  border-radius: 4px;
 }
 
 .localization {

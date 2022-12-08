@@ -251,7 +251,8 @@ body {
 .social-links{
   fill:var(--social-links);
   border: solid 1px red;
-  border-radius:50%
+  border-radius:50%;
+  
 }
 .button {
   font-family: "Roboto";

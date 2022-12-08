@@ -249,11 +249,19 @@ body {
   margin-top: 16px;
 }
 .social-links{
+  background-color:var(--white) ;
+  display:block;
   fill:var(--social-links);
-  border: solid 1px red;
   border-radius:50%;
-  
 }
+.social-links:hover{
+  background-color: var(--blue);
+}
+
+.item-social:hover{
+  fill:var(--white)
+}
+
 .button {
   font-family: "Roboto";
   font-weight: 500;

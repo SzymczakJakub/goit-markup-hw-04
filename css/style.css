@@ -7,6 +7,7 @@
   --background-footer: #2f303a;
   --box-shadow: rgba(0, 0, 0, 0.15);
   --bacground-image: rgba(47, 48, 58, 0.4);
+  --social-links:#AFB1B8;
 }
 
 header {
@@ -246,6 +247,11 @@ body {
   gap:10px;
   margin-left: 32px;
   margin-top: 16px;
+}
+.social-links{
+  fill:var(--social-links);
+  border: solid 1px red;
+  border-radius:50%
 }
 .button {
   font-family: "Roboto";

@@ -256,15 +256,17 @@ body {
   border-radius:50%;
 }
 
-.social-links:hover,
-.social-links:focus{
+.social-links:hover{
   background-color: var(--blue);
   cursor: pointer;
  
 }
-
-.item-social:hover,
-.item-social:focus{
+*[tabindex="0"]:focus{
+  background-color:var(--blue);
+  fill:var(--white);
+  
+}
+.item-social:hover{
   fill:var(--white)
 }
 
@@ -398,9 +400,11 @@ text-align: center;
 .client-box{
   cursor: pointer;
 }
-
-.icon-client:hover,
-.icon-client:focus{
+*[tabindex="1"]:focus{
+  fill:var(--blue);
+  border-color: var(--blue);
+}
+.icon-client:hover{
   fill:var(--blue);
   border-color: var(--blue);
 }

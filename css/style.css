@@ -241,7 +241,12 @@ body {
   margin-bottom: 50px;
   line-height: 42px;
 }
-
+.list-links{
+  display: flex;
+  gap:10px;
+  margin-left: 32px;
+  margin-top: 16px;
+}
 .button {
   font-family: "Roboto";
   font-weight: 500;

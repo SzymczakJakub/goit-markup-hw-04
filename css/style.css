@@ -252,13 +252,15 @@ body {
 }
 .social-links{
   background-color:var(--white) ;
-  
   fill:var(--social-links);
   border-radius:50%;
 }
-.social-links:hover{
+
+.social-links:hover,
+.social-links:focus{
   background-color: var(--blue);
   cursor: pointer;
+ 
 }
 
 .item-social:hover,

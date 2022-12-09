@@ -404,13 +404,16 @@ body {
 .client-box {
   cursor: pointer;
 }
-
+.client-box:focus{
+  border-color: #2196f3;
+}
 .icon-client:hover {
   fill: var(--blue);
   border-color: var(--blue);
 }
 
-.link-svg:focus {
+
+.link-svg:focus > .icon-client{
   fill: var(--blue);
   border-color: var(--blue);
 }

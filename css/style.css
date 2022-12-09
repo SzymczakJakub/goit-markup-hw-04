@@ -263,7 +263,10 @@ body {
 *[tabindex="0"]:focus {
   background-color: var(--blue);
   fill: var(--white);
+  border-radius: 50%;
 }
+
+
 .item-social:hover {
   fill: var(--white);
 }
@@ -273,8 +276,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  height: 38px;
+  padding-left: 22px;
+  padding-right: 22px;
   outline: none;
   border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 .button-index {
@@ -402,6 +409,7 @@ body {
   fill: var(--blue);
   border-color: var(--blue);
 }
+
 .link-svg:focus {
   fill: var(--blue);
   border-color: var(--blue);
